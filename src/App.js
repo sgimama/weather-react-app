@@ -42,10 +42,10 @@ export const App = () => {
             <div className="col-span-10 py-8 space-y-8 text-gray-400">
               <form onSubmit={OnSubmit}>
                 <input
-                  className="p-3 bg-white rounded-full bg-opacity-40 b-0 focus:outline-none"
+                  className="p-3 bg-white rounded-full w-60 sm:w-80 bg-opacity-40 b-0 focus:outline-none"
                   type="search"
                   placeholder="City name"
-                  size="40"
+                  
                   value={search}
                   onChange={(e) => setSearch(e.target.value)}
                 />
